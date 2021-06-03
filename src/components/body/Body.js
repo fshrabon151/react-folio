@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Service from "./pages/Service";
 import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
+
 
 const Body = () => {
   return (
@@ -13,6 +15,7 @@ const Body = () => {
         <Route exact path="/about" component={About} />
         <Route exact path="/service" component={Service} />
         <Route exact path="/contact" component={Contact} />
+        <Route  component={ErrorPage} />
       </Switch>
     </div>
   );
