@@ -89,3 +89,20 @@
 .onPortfolioSelect:hover {
   cursor: pointer !important;
 }
+
+.portfolio {
+  transition: 0.3s;
+  border: 3px solid #ddd !important;
+  border-radius: 5px;
+}
+.portfolio:hover {
+  cursor: pointer;
+  background-color: #56bbff !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #home__title {
+    text-align: center;
+    margin-bottom: 75px;
+  }
+}

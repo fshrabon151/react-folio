@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="container home">
       <div className="row align-self-center pt-5 animate__animated animate__fadeInDown">
-        <div className="col-md-6 align-self-center animate__animated animate__shakeX">
+        <div id="home__title" className="col-md-6 align-self-center animate__animated animate__shakeX">
           <h1>{data[0].name}</h1>
           <h5 style={{ margin: "auto 0", fontWeight: "normal"}}>  
             <span style={{ color: "#004080", fontWeight: "bold",fontSize: "25px"}}>
